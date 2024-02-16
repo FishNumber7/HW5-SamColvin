@@ -11,6 +11,7 @@ script = ExtResource("1_354yi")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_aa3ml")]
 collision_mask = 3
+motion_mode = 0
 movement_speed = 150.0
 
 [node name="TileMap" type="TileMap" parent="."]
